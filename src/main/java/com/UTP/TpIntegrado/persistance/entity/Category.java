@@ -23,13 +23,13 @@ public class Category {
     private String prioritylevel;
     private String category;
     private String description;
+    @Column(name = "registered_date")
     private LocalDateTime registeredDate;
-
-    /*
+/*
     @OneToMany(mappedBy = "category")
     @ToString.Exclude
     @JsonIgnore
     private List<Incident> incident;
 
-     */
+ */
 }
